@@ -144,3 +144,10 @@ section h2 {
   margin: 0 auto;
   max-width: 800px;
 }
+
+@media (max-width: 1200px) {
+  .itd-carousel {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
