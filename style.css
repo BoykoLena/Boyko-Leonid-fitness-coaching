@@ -4,9 +4,9 @@
   --text-color: white;
   --hover-logo-color: #ffe700; */
 
-  --bg-color: #1b3764;
-  --insert-color: #4ab8b8;
-  --text-color: #fafccb;
+  --bg-color: black;
+  --insert-color: #f96d00;
+  --text-color: #f2f2f2;
   --hover-logo-color: #efa35c;
 }
 
@@ -17,6 +17,7 @@ header {
   background-color: black;
   color: var(--text-color);
   padding-bottom: 100px;
+  border-bottom: 1px solid var(--insert-color);
 }
 
 header:after {
