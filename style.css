@@ -1,9 +1,16 @@
+:root {
+  --bg-color: black;
+  --insert-color: #00bbf0;
+  --text-color: white;
+  --hover-logo-color: #ffe700;
+}
+
 header {
   padding-top: 100px;
   position: relative;
   background: url("img/bg.jpeg") no-repeat center;
-  background-color: black;
-  color: white;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   padding-bottom: 100px;
 }
 
@@ -26,15 +33,15 @@ header .container {
 .itd-logo {
   font-size: 26px;
   font-family: "Indie Flower", cursive;
-  color: #00bbf0;
+  color: var(--insert-color);
 }
 
 .itd-logo:hover {
-  color: #ffe700;
+  color: var(--hover-logo-color);
 }
 
 .itd-logo:focus {
-  color: #00bbf0;
+  color: var(--insert-color);
 }
 
 .itd-header {
@@ -52,22 +59,9 @@ header .container {
   font-size: 32px;
 }
 
-.itd-nav {
-  padding: 30px;
-  text-decoration: none;
-  color: #f6f6f6;
-  text-align: center;
-  transition: all 200ms ease-in-out;
-}
-
-.itd-nav:hover {
-  color: white;
-  border-bottom: 1px solid white;
-}
-
 .itd-btn {
   text-decoration: none;
-  color: #00bbf0;
+  color: var(--insert-color);
   border: 1px solid #00bbf0;
   padding: 20px;
   border-radius: 4px;
@@ -75,19 +69,19 @@ header .container {
 }
 
 .itd-btn:hover {
-  color: #00bbf0;
-  border: 3px solid #00bbf0;
+  color: var(--insert-color);
+  border: 3px solid var(--insert-color);
 }
 
 section {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: black;
-  color: white;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 .itd-about-img {
-  border: 1px solid #00bbf0;
+  border: 1px solid var(--insert-color);
 }
 
 .itd-about-text {
@@ -112,7 +106,7 @@ section h2 {
   margin: 0 auto;
   width: 100px;
   height: 100px;
-  border: 2px solid #00bbf0;
+  border: 2px solid var(--insert-color);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -121,12 +115,12 @@ section h2 {
 
 .itd-for-icon i {
   font-size: 30px;
-  color: #00bbf0;
+  color: var(--insert-color);
 }
 
 .itd-options {
   padding: 30px;
-  border: 1px solid #00bbf0;
+  border: 1px solid var(--insert-color);
 }
 
 .itd-options-list {
