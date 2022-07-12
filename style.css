@@ -4,10 +4,10 @@
   --text-color: white;
   --hover-logo-color: #ffe700; */
 
-  --bg-color: #896e69;
-  --insert-color: #ffa577;
-  --text-color: #f9f9ff;
-  --hover-logo-color: #d55448;
+  --bg-color: #1b3764;
+  --insert-color: #4ab8b8;
+  --text-color: #fafccb;
+  --hover-logo-color: #efa35c;
 }
 
 header {
@@ -142,6 +142,14 @@ section h2 {
   font-size: 20px;
   margin: 0 auto;
   max-width: 800px;
+}
+
+.itd-cl {
+  color: var(--text-color);
+}
+
+.itd-bg {
+  background: #222831;
 }
 
 @media (max-width: 1200px) {
