@@ -157,6 +157,10 @@ section h2 {
   background: #222831;
 }
 
+.itd-bg-hide {
+  color: var(--bg-color);
+}
+
 @media (max-width: 1200px) {
   .itd-carousel {
     padding-left: 60px;
