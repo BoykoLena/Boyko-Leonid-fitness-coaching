@@ -161,9 +161,9 @@ section h2 {
   color: var(--bg-color);
 }
 
-#feedback {
+/* #feedback {
   padding-top: 0;
-}
+} */
 
 @media (max-width: 1200px) {
   .itd-carousel {
